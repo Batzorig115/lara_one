@@ -22,11 +22,11 @@ export default class Listing extends Component {
                 <table class="table table-dark">
                 <thead>
                     <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">Category name</th>
-                    <th scope="col">Status</th>
-                    <th scope="col">Created At</th>
-                    <th scope="col">Updated At</th>
+                        <th scope="col">#</th>
+                        <th scope="col">Category name</th>
+                        <th scope="col">Status</th>
+                        <th scope="col">Created At</th>
+                        <th scope="col">Updated At</th>
                     </tr>
                 </thead>
                 <tbody>
