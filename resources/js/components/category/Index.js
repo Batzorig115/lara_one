@@ -9,10 +9,12 @@ export default class Index extends Component {
             <div>
                 <Router>
                     <div>
-                        <Link to="/category">Listing</Link>
-                        <Link to="/category/Add">Add</Link>
-                        <Route exact path="/category" component={Add}/>
-                        <Route exact path="/category/add" component={Listing}/>
+                        <hr />
+                        <Link className="btn btn-primary" to="/category">Listing</Link>&nbsp;
+                        <Link className="btn btn-primary" to="/category/add">Add</Link>
+                        <Route exact path="/category" component={Listing}/>
+                        <Route exact path="/category/add" component={Add}/>
+                        <hr />
                     </div>
                 </Router>
             </div>
